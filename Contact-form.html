@@ -5,11 +5,12 @@
     <title>Contact form</title>
 </head>
 <body>
-    <h1>Contact Form</h1>
+    <h1>Contact Form!</h1>
     <form id="contactForm" action="https://formsubmit.co/onuhdanix@gmail.com"
     method="POST">
-    <input type="hidden" name="_captcha" value="true">
-    <input type="hidden" name="_next" value="http://127.0.0.1:5500/Contact-form.html">
+    
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_next" value="/Succesful.html">
 
     <div>
         <label for="name" id="label -name">Name:</label><br>
@@ -50,8 +51,8 @@
         </div><br>
 
         <div>
-            <textarea id="message" name="message" rows="6" required></textarea>
-            <label for="message">Message:</label>
+            <label for="message">Message:</label><br>
+            <textarea name="Message" id="message" rows="6" cols="50" placeholder="enter your message" required></textarea>
         </div>
           <div>
              <label>
@@ -59,7 +60,7 @@
                     Subscribe to our newsletter to stay updated
                 </label>
         </div>
-        <input type="submit" value="submit" onclick="window.location.href='submit.html';">
-        <a href="./Succesful.html"><button type="submit">Submit</button></a>
+        <input type="submit" value="submit">
+        
 </body>
 </html>
